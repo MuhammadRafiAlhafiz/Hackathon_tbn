@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="../dist/tailwind.css" />
+    <link rel="shortcut icon" href="../assets/logo 1.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="px-8 py-2 font-Source md:py-1 fixed shadow-xl bg-white w-full font-jakarta top-0"
+    >
+      <div class="flex items-center justify-between">
+        <span class="flex items-center space-x-2 md:ml-10 py-1 z-10 md:py-0">
+          <a href="../src/index.html"
+            ><img src="../assets/logo 1.svg" alt="logo navbar"
+          /></a>
+        </span>
+        <ul
+          class="hidden md:hiddenlg:flex item-center space-x-10 ml-20 lg:mr-20 text-black font-semibold tracking-wide md:flex"
+        >
+          <a href="../src/event.html"><li>Event</li></a>
+          <a href="../src/about.html"><li>About Us</li></a>
+          <a href="../src/contact.html"><li>Contact</li></a>
+        </ul>
+        <div class="lg:flex hidden gap-6 mt-2 mb-2 mr-5">
+          <a
+            href="../src/login.html"
+            class="border px-8 py-3 rounded-lg font-bold font-xs bg-hijau"
+            >LOGIN</a
+          >
+
+          <a href="../src/sign.html"
+            ><button
+              class="border-2 border-hijau px-6 py-3 rounded-md font-bold font-xs"
+            >
+              SIGN UP
+            </button></a
+          >
+        </div>
+        <button class="w-16 lg:hidden block buttonToogle bg-hijau">
+          <img src="../assets/menu1.svg" alt="Menu" />
+        </button>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div class="Mobilemenu hidden">
+        <ul class="text-sm font-bold gap-6">
+          <a href="../src/event.html">
+            <li
+              class="py-4 px-10 cursor-pointer hover:bg-slate-500 bg-white ease-in duration-300"
+            >
+              Event
+            </li>
+          </a>
+
+          <a href="../src/about.html">
+            <li
+              class="py-4 px-10 cursor-pointer hover:bg-slate-500 bg-white ease-in duration-300"
+            >
+              About Us
+            </li>
+          </a>
+
+          <a href="../src/contact.html">
+            <li
+              class="py-4 px-6 ml-4 md:ml-0 lg:px-20 cursor-pointer hover:bg-slate-500 bg-white ease-in duration-300"
+            >
+              Contact
+            </li>
+          </a>
+        </ul>
+
+        <div class="gap-6 mt-2 mb-2">
+          <button
+            class="border px-1 py-3 rounded-md font-bold font-xs bg-hijau w-full"
+          >
+            LOGIN
+          </button>
+          <button
+            class="border-4 border-hijau px-1 py-3 rounded-md font-bold font-xs w-full mt-2"
+          >
+            SIGN UP
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- regis -->
+    <section class="mt-24 ml-10">
+        <span class="flex flex-row">
+
+            <img src="../assets/Vector.png" class="" alt=""/>
+            <a href="../src/registrasi.html" class="font-jakarta font-semibold ml-10"
+            >BACK</a>
+            
+        </span>
+
+        
+
+      <h1 class="text-center mt-10 font-semibold text-[24px]">Registration</h1>
+      <div class="mx-5 flex justify-center gap-16 my-10 items-center">
+        <div class="bg-white w-96">
+          <div class="gap-4 mb-4">
+            <div>
+              <label
+                for="first_name"
+                class="block text-sm font-medium text-gray-700"
+                >First Name</label
+              >
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                class="mt-1 p-2 w-full border rounded-md"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div>
+              <label
+                for="last_name"
+                class="block text-sm font-medium text-gray-700"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                class="mt-1 p-2 w-full border rounded-md"
+                placeholder="Enter your last name"
+              />
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <label for="email" class="block text-sm font-medium text-gray-700"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="mt-1 p-2 w-full border rounded-md"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="phone" class="block text-sm font-medium text-gray-700"
+              >Phone Number</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="mt-1 p-2 w-full border rounded-md"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <button class="bg-hijau text-white px-8 py-2 rounded-2xl w-full">
+            Get Tickets Now
+          </button>
+        </div>
+        <div class="flex flex-col justify-center items-center border-2 py-10 rounded-md bg-foundation ">
+            <img src="../assets/pemesanan1.svg" class="" alt="">
+            <h1 class="">Transformational Sales Conference 2023</h1>
+           <div class="flex">
+            <p class="font-semibold mr-5">Date</p>
+            <p>10 November 2023</p>
+            </div>
+
+            <div class="flex">
+                <p class="font-semibold mr-5">Location</p>
+                <p>Menara Danareksa (Arya Nusa Ballroom)Jakarta</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="my-20 font-jakarta">
+      <img src="../assets/Line 1.svg" alt="" class="my-5" />
+      <div class="mx-12 flex flex-col md:flex-row gap-10 md:gap-52">
+        <div>
+          <img src="../assets/logo 1.svg" alt="" />
+          <p
+            class="font-jakarta w-[150px] text-[10px] text-[#595959] text-justify my-3"
+          >
+            TBN Indonesia is a social foundation that focuses on social
+            transformation through entrepreneurship.
+          </p>
+          <div class="flex flex-row gap-3">
+            <a href="">
+              <img src="../assets/mail.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/whatsapp.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/instagram.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/youtube.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/linkedin.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="md:mx-5">
+          <h1 class="font-semibold text-[28px] mb-3">Menu</h1>
+          <ul class="space-y-1 text-[16px] font-medium">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Event</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="md:mx-5">
+          <h1 class="font-semibold text-[28px] mb-3">Event</h1>
+          <ul class="space-y-1 text-[16px] font-medium">
+            <li>
+              <a href="">Upcoming Event</a>
+            </li>
+            <li>
+              <a href="">Last Event</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="font-semibold text-[28px] mb-3">About Us</h1>
+          <ul class="space-y-1 text-[16px] font-medium">
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../src/script.js"></script>
+  </body>
+</html>

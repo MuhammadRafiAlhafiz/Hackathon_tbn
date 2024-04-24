@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../dist/tailwind.css" />
+    <link rel="shortcut icon" href="../assets/logo 1.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="px-8 py-2 font-Source md:py-1 fixed shadow-xl bg-white w-full font-jakarta top-0"
+    >
+      <div class="flex items-center justify-between">
+        <span class="flex items-center space-x-2 md:ml-10 py-1 z-10 md:py-0">
+          <a href="../src/index.html"
+            ><img src="../assets/logo 1.svg" alt="logo navbar"
+          /></a>
+        </span>
+        <ul
+          class="hidden md:hiddenlg:flex item-center space-x-10 ml-20 lg:mr-20 text-black font-semibold tracking-wide md:flex"
+        >
+          <a href="../src/event.html"><li>Event</li></a>
+          <a href="../src/about.html"><li>About Us</li></a>
+          <a href="../src/contact.html"><li>Contact</li></a>
+        </ul>
+        <div class="lg:flex hidden gap-6 mt-2 mb-2 mr-5">
+          <a
+            href="../src/login.html"
+            class="border px-8 py-3 rounded-lg font-bold font-xs bg-hijau"
+            >LOGIN</a
+          >
+
+          <a href="../src/sign.html"
+            ><button
+              class="border-2 border-hijau px-6 py-3 rounded-md font-bold font-xs"
+            >
+              SIGN UP
+            </button></a
+          >
+        </div>
+        <button class="w-16 lg:hidden block buttonToogle bg-hijau">
+          <img src="../assets/menu1.svg" alt="Menu" />
+        </button>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div class="Mobilemenu hidden">
+        <ul class="text-sm font-bold gap-6">
+          <a href="../src/event.html">
+            <li
+              class="py-4 px-10 cursor-pointer hover:bg-slate-500 bg-white ease-in duration-300"
+            >
+              Event
+            </li>
+          </a>
+
+          <a href="../src/about.html">
+            <li
+              class="py-4 px-10 cursor-pointer hover:bg-slate-500 bg-white ease-in duration-300"
+            >
+              About Us
+            </li>
+          </a>
+
+          <a href="../src/contact.html">
+            <li
+              class="py-4 px-6 ml-4 md:ml-0 lg:px-20 cursor-pointer hover:bg-slate-500 bg-white ease-in duration-300"
+            >
+              Contact
+            </li>
+          </a>
+        </ul>
+
+        <div class="gap-6 mt-2 mb-2">
+          <button
+            class="border px-1 py-3 rounded-md font-bold font-xs bg-hijau w-full"
+          >
+            LOGIN
+          </button>
+          <button
+            class="border-4 border-hijau px-1 py-3 rounded-md font-bold font-xs w-full mt-2"
+          >
+            SIGN UP
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- welcome -->
+    <section class="mt-24 p-5 bg-foundation">
+      <h1
+        class="md:text-center font-semibold text-[20px] ml-10 md:font-semibold md:text-[28px]"
+      >
+        Welcome to <span class="text-hijau">TBN INDONESIA</span>
+      </h1>
+      <p class="font-medium my-5 text-justify ml-0 md:text-center md:mx-20">
+        <span class="text-hijau">TBN INDONESIA</span> is a Social Foundation
+        which oversees the community consisting of Investors, NGOs, educators,
+        philanthropists who bring it transformation to a better life solves
+        social problems through social entrepreneurship.
+      </p>
+    </section>
+
+    <!-- image -->
+    <div class="flex justify-center">
+      <img src="../assets/about-content1.svg" class="mt-10" alt="" />
+    </div>
+
+    <!-- Figthing poverty through Enterprise -->
+    <section class="mt-12 md:16">
+      <div class="md:flex flex-col mx-5 ml-10 justify-center items-center">
+        <div>
+          <img src="../assets/about-content2.svg" alt="" />
+        </div>
+        <div>
+          <h1
+            class="md:mx-20 font-semibold text-[20px] md:text-[24px] flex flex-row justify-center items-center my-8"
+          >
+            Figthing poverty through Enterprise
+          </h1>
+          <p class="font-medium">
+            Currently the world we live in is increasingly being destroyed
+            because of our own actions. High levels of poverty, increasingly
+            rampant exploitation of nature, acid and factory waste polluting the
+            environment, and extreme climate change have resulted in disasters,
+            disease and even death
+          </p>
+
+          <p class="font-medium my-5">
+            Current sosial problem, include : Poverty levels are still quite
+            high in several regions and villages. Limited job opportunities. The
+            value of the currency and people's purchasing power decrease.
+          </p>
+
+          <p>
+            TBN Indonesia is here to invite social entrepreneurs to come
+            together to find better solutions for our beloved earth.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- You may also be interest in -->
+    <section id="explore" class="my-20 font-jakarta">
+      <h1 class="text-[28px] mt-8 text-start my-10 md:ml-10 ml-5 font-semibold">
+        You may also be interest in...
+      </h1>
+      <div class="flex flex-col md:flex-row gap-10 md:ml-20">
+        <div
+          class="w-[360px] h-[400px] ml-5 md:ml-0 md:w-[580px] md:h-[324px] flex flex-col md:flex-row bg-blue_invest rounded-md"
+        >
+          <img
+            src="../assets/investasi.svg"
+            alt=""
+            class="w-5/12 ml-24 md:ml-0"
+          />
+          <div class="flex flex-col ml-8 md:ml-0">
+            <h1 class="font-semibold text-[28px] md:mt-20">Investment</h1>
+            <p class="my-5 font-medium text-[10px] w-[269px]">
+              Function as a strategic bridge connecting entrepreneurs and
+              investors in Indonesia, offering distinctive investment services
+              tailored to meet the market's needs.
+            </p>
+            <a
+              href=""
+              class="rounded-[4px] bg-hijau w-[126px] py-2 text-center text-[14px] font-medium mt-3"
+              >Get The Service</a
+            >
+          </div>
+        </div>
+        <div
+          class="w-[360px] h-[400px] ml-5 md:ml-0 md:w-[580px] md:h-[324px] flex flex-col md:flex-row bg-foundation rounded-md"
+        >
+          <img
+            src="../assets/advisory.svg"
+            alt=""
+            class="w-5/12 ml-24 md:ml-0"
+          />
+          <div class="flex flex-col ml-8 md:ml-10">
+            <h1 class="font-semibold text-[28px] md:mt-20">Advisory</h1>
+            <p class="my-5 font-medium text-[10px] w-[240px]">
+              We created a team of experts (advisory entity) to leverage our
+              connections and knowledge. This team offers various services like
+              research, training, consultations, and educational materials to
+              benefit a large group of people.
+            </p>
+            <a
+              href=""
+              class="rounded-[4px] bg-hijau w-[126px] py-2 text-center text-[14px] font-medium"
+              >Get The Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="my-20 font-jakarta">
+      <img src="../assets/Line 1.svg" alt="" class="my-5" />
+      <div class="mx-12 flex flex-col md:flex-row gap-10 md:gap-52">
+        <div>
+          <img src="../assets/logo 1.svg" alt="" />
+          <p
+            class="font-jakarta w-[150px] text-[10px] text-[#595959] text-justify my-3"
+          >
+            TBN Indonesia is a social foundation that focuses on social
+            transformation through entrepreneurship.
+          </p>
+          <div class="flex flex-row gap-3">
+            <a href="">
+              <img src="../assets/mail.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/whatsapp.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/instagram.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/youtube.png" alt="" />
+            </a>
+            <a href="">
+              <img src="../assets/linkedin.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="md:mx-5">
+          <h1 class="font-semibold text-[28px] mb-3">Menu</h1>
+          <ul class="space-y-1 text-[16px] font-medium">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Event</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="md:mx-5">
+          <h1 class="font-semibold text-[28px] mb-3">Event</h1>
+          <ul class="space-y-1 text-[16px] font-medium">
+            <li>
+              <a href="">Upcoming Event</a>
+            </li>
+            <li>
+              <a href="">Last Event</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="font-semibold text-[28px] mb-3">About Us</h1>
+          <ul class="space-y-1 text-[16px] font-medium">
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../src/script.js"></script>
+  </body>
+</html>
